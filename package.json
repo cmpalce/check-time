@@ -1,0 +1,33 @@
+{
+  "name": "check-time",
+  "version": "0.0.1",
+  "description": "Tracks the current time.",
+  "main": "index.js",
+  "directories": {
+    "test": "./node_modules/mocha/bin/mocha --compilers js:babel-core/register"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --compilers js:babel-core/register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmpalce/check-time.git"
+  },
+  "keywords": [
+    "clock",
+    "time",
+    "tick"
+  ],
+  "author": "Christopher M. Palce <cmpalce4@gmail.com> (https://github.com/cmpalce)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cmpalce/check-time/issues"
+  },
+  "homepage": "https://github.com/cmpalce/check-time#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "chai": "^3.5.0",
+    "mocha": "^3.3.0"
+  }
+}
